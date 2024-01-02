@@ -1,5 +1,6 @@
 # Netwatch - Intrusion Detection System
 Packet Collection & Cleaning
+Version: 0.15
 
 ## Overview
 
@@ -34,8 +35,7 @@ cd network-packet-analysis
 3. Install required dependencies:
 
 ```bash
-install scapy
-install npcap
+pip install -r requirements.txt
 ```
 
 4. Run the packet capture script:
@@ -59,7 +59,6 @@ The packets_capture.py script will execute the script packets_cleaning.py.
 
 Version 0.2 (Soon)
 
-    Add requirements.txt
     Add independent execution for capture and cleaning.
     Improve the data cleaning process with additional filters and optimizations.
 
@@ -71,6 +70,12 @@ Version 1.0 (Future)
     
     Integrate visualization tools to display packet statistics and trends.
     Implement real-time packet analysis for live network monitoring.
+
+## Change Log
+
+  Version 0.15
+  
+    Added requirements.txt
 
 ## License
 
