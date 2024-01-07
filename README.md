@@ -1,4 +1,4 @@
-# Netwatch - Intrusion Detection System
+# Netwatch - Intrusion Countermeasures Electronics
 Packet Collection & Cleaning
 
 Version: 0.15
